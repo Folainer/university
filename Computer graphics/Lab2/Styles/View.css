@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+}
+
+.view {
+    display: flex;
+}
+
+.view__canvas {
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.view__title {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+.view__description_box {
+    padding: 10px;
+}
