@@ -12,7 +12,7 @@ class Controller:
         return Controller.__instance
 
     def __init__(self):
-            self.db = Database("postgres", "postgres", "1379", "localhost", "5432")
+            self.db = Database("postgres", "postgres", "1111", "localhost", "5432")
             self.view = View()
             self.selectedDB = 'unspecified'
     
