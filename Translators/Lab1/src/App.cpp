@@ -5,6 +5,6 @@
 
 int main() {
     ViewStream vs;
-    Controller("J:/Repositories/University/Translators/Lab1/bin/program3f.sig", vs);
+    Controller("J:/Repositories/University/Translators/Lab1/bin/program1f.sig", vs);
     return 0;
 }

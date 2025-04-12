@@ -1,4 +1,4 @@
-![](img/KPI_logo.jpeg)
+![](https://raw.githubusercontent.com/Folainer/university/refs/heads/main/TIRPZ/Lab1/img/KPI_logo.jpeg)
 ## Міністерство освіти і науки України Національний технічний університет України
 ## «Київський політехнічний інститут»
 <br>
@@ -38,18 +38,13 @@ Parameters explanations
 
 checking repositories sizes
 ```
-ll
+du -sh ./*/.git 
 ```
 
 And the result
 ```
-drwxrwxrwx 1 folainer folainer    512 Oct 16 19:52 ./
-drwxrwxrwx 1 folainer folainer    512 Oct  1 18:15 ../
-drwxrwxrwx 1 folainer folainer    512 Oct 16 19:43 Nestjs/
-drwxrwxrwx 1 folainer folainer    512 Oct 16 19:44 Nestjs-full/
-drwxrwxrwx 1 folainer folainer    512 Oct 16 18:59 img/
--rwxrwxrwx 1 folainer folainer   1357 Oct 16 19:50 report.md*
--rwxrwxrwx 1 folainer folainer 130556 Oct  1 18:15 tirpz-lab1.pdf*
+83K     ./Nestjs-full/.git
+65K     ./Nestjs/.git
 ```
 
 We can notice that sizes is equal
@@ -239,7 +234,7 @@ git commit
 ```
 
 The result
-![](img/nano.png)
+![](https://raw.githubusercontent.com/Folainer/university/refs/heads/main/TIRPZ/Lab1/img/nano.png)
 
 
 Let's check our all commits using
@@ -258,9 +253,6 @@ The result
 ```
 
 Let's delete few commits
-```
-git reset HEAD~2
-```
 
 we could use 
 ```
@@ -562,3 +554,5 @@ index e69de29..70c379b 100644
 ```
 
 The lab is done :smile:!
+
+[Github repository](https://github.com/Folainer/university/tree/main/TIRPZ/Lab1)
