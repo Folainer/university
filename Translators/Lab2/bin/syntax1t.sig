@@ -1,0 +1,12 @@
+PROCEDURE GREET (NAME, MESSAGE);
+LABEL 10, 23;
+BEGIN
+    23: RETURN;
+    ($ 
+    MOV EAX, 2 
+    INT 10h
+    $)
+    RETURN;
+    10: GOTO 23;
+    GOTO 10;
+END;

@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "fstream": "cpp",
+        "xtree": "cpp",
+        "utility": "cpp",
+        "sstream": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "istream": "cpp",
+        "ratio": "cpp",
+        "xlocale": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "ios": "cpp",
+        "iomanip": "cpp",
+        "stdexcept": "cpp",
+        "iosfwd": "cpp"
+    }
+}

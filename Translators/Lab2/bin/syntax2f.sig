@@ -1,0 +1,8 @@
+PROCEDURE GREET;
+BEGIN
+    RETURN;
+    ($ MOV EAX, 2 $)
+    RETURN;
+    10: GOTO 23;
+    GOTO 10;
+END
