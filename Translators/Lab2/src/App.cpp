@@ -5,6 +5,6 @@
 
 int main() {
     ViewStream vs;
-    Controller("J:/Repositories/University/Translators/Lab2/bin/semantic2f.s", vs);
+    Controller("J:/Repositories/University/Translators/Lab2/bin/semantic2t.s", vs);
     return 0;
 }

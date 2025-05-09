@@ -7,3 +7,8 @@ GREET:
     ret       
     mov eax, 2
     int 10h   
+  10:
+    jump      23
+    jump      10
+    pop       rbp
+    ret       
