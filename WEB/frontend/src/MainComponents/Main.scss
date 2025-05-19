@@ -1,0 +1,21 @@
+.header {
+    &__menuicon {
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__link {
+        color: white;
+
+        &:focus, &:hover, &:visited, &:link, &:active {
+            color: white;
+        }
+    }
+}

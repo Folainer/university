@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="IAN--TZY34HOIy8FHu8I">
+    <mxGraphModel dx="1034" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TB52TeCoipo1JfifAIZZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-5" target="TB52TeCoipo1JfifAIZZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-5" value="second&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TableGeneration start&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-6" target="TB52TeCoipo1JfifAIZZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-6" value="&amp;nbsp;data: Task2Data[] = []&lt;div&gt;&amp;nbsp;h = (b - a) / 10&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-10" target="TB52TeCoipo1JfifAIZZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-10" value="&#39;h = &#39; + h" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-12" target="TB52TeCoipo1JfifAIZZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-12" target="TB52TeCoipo1JfifAIZZ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-12" value="i from 0 to 10" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-14" target="TB52TeCoipo1JfifAIZZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-14" value="x = a + h * i&lt;div&gt;res = 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;uk: = x**2 / 2&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-15" target="TB52TeCoipo1JfifAIZZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-15" value="a = 0&lt;div&gt;b = 1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-19" target="TB52TeCoipo1JfifAIZZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-19" target="TB52TeCoipo1JfifAIZZ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="650" />
+              <mxPoint x="260" y="830" />
+              <mxPoint x="180" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-19" value="k from 2 to n step 2" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-21" target="TB52TeCoipo1JfifAIZZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-21" value="res += uk&lt;div&gt;&amp;nbsp;uk *= x**2 / ((k + 1) * (k + 2))&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-27" target="TB52TeCoipo1JfifAIZZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-27" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-29" target="TB52TeCoipo1JfifAIZZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-29" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;div&gt;task2Data : Task2Data = {&lt;/div&gt;&lt;div&gt;&amp;nbsp;x: x,&lt;/div&gt;&lt;div&gt;absoluteError: Math.abs(cosh(x) - res),&lt;/div&gt;&lt;div&gt;reminder: uk,&lt;/div&gt;&lt;div&gt;calculatedValue: res,&lt;/div&gt;&lt;div&gt;realValue: cosh(x)}&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="289.93" y="840" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-32" target="TB52TeCoipo1JfifAIZZ-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="1050" />
+              <mxPoint x="90" y="1050" />
+              <mxPoint x="90" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-32" value="data.push(task2Data)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="119.93" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TB52TeCoipo1JfifAIZZ-38" target="TB52TeCoipo1JfifAIZZ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-38" value="data" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="310.00000000000006" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TB52TeCoipo1JfifAIZZ-39" value="secondTableGeneration end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310.00000000000006" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,9 @@
+Button {
+    &:focus {
+        outline: none;
+    }
+}
+
+.signup__paper TextField {
+    box-sizing: border-box;
+}

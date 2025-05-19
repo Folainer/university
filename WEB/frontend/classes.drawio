@@ -1,0 +1,158 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="jQyougZ3MWIlhnK1Jc_e">
+    <mxGraphModel dx="1235" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kdyvaGirlifv34SAWFV7-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="105" width="375" height="375" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-27" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="495" y="20" width="450" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-1" target="kdyvaGirlifv34SAWFV7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-1" target="kdyvaGirlifv34SAWFV7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-1" value="Store&lt;div&gt;- userReducer&lt;/div&gt;&lt;div&gt;- gameReducer&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-2" value="UserSlice&lt;div&gt;- registerUser&lt;/div&gt;&lt;div&gt;- logout&lt;/div&gt;&lt;div&gt;- loginUser&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-4" value="GameSlice&lt;div&gt;-recordGameResult&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-6" target="kdyvaGirlifv34SAWFV7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-8" value="Provider (wrapper component) for the store&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kdyvaGirlifv34SAWFV7-7">
+          <mxGeometry x="-0.2129" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-6" target="kdyvaGirlifv34SAWFV7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.65;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-6" target="kdyvaGirlifv34SAWFV7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.337;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-6" target="kdyvaGirlifv34SAWFV7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-6" value="App Component&lt;div&gt;(Main component)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-9" target="kdyvaGirlifv34SAWFV7-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-9" target="kdyvaGirlifv34SAWFV7-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-9" value="Other children compoents" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-17" value="React Router" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="145" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-18" target="kdyvaGirlifv34SAWFV7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-18" target="kdyvaGirlifv34SAWFV7-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-18" target="kdyvaGirlifv34SAWFV7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-18" value="GameCanvas component" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-19" value="Scss styles" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Redux(global state and action for state updtaition)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="320" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;View components&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-29" target="kdyvaGirlifv34SAWFV7-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-29" value="GameLogic" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-30" target="kdyvaGirlifv34SAWFV7-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-30" target="kdyvaGirlifv34SAWFV7-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="260" />
+              <mxPoint x="730" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-30" value="Authorization componets (signin and sign up components)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-32" target="kdyvaGirlifv34SAWFV7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-35" value="Depending game world&lt;div&gt;data it can be genereted&lt;/div&gt;&lt;div&gt;chunk in chunk component&lt;/div&gt;&lt;div&gt;also it can cause dispatch event&amp;nbsp;&lt;/div&gt;&lt;div&gt;to controller for changing data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kdyvaGirlifv34SAWFV7-34">
+          <mxGeometry x="0.6329" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-32" value="GameWorld" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-42" target="kdyvaGirlifv34SAWFV7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-42" target="kdyvaGirlifv34SAWFV7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-42" value="localStorage" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="kdyvaGirlifv34SAWFV7-46" target="kdyvaGirlifv34SAWFV7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-46" value="Controller&lt;div&gt;(imaginary component)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-51" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="710" y="410" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-52" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Game logic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-54" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Controller&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kdyvaGirlifv34SAWFV7-55" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Styles&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="945" y="10" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

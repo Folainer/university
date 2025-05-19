@@ -1,0 +1,5 @@
+s * (where "UserID" = 200) 
+insert ("ProfileID", "RelationshipStatus", "Occupation", "Hobbies", "UserID") (10, 'married', 'programmer', 'traveling, listening music, photographing', 10)
+d (where "UserID" > 1000) 
+gmo 2 6 12
+g (RelationshipStatus, count("RelationshipStatus")) RelationshipStatus 

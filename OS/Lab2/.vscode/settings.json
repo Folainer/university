@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "atomic": "cpp",
+        "map": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "thread": "cpp"
+    }
+}
