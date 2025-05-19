@@ -1,4 +1,4 @@
 # Information about development
 
 Labotary work #1 was performed by Krutohuz Maksym from KV-22 group. The link for report can be accessed by [it](https://docs.google.com/document/d/1Q6tpjA725zdMuB_KLjZCI1rIc6JmaTmPN7OqZY3ppPQ/edit?usp=sharing)
-The link for the second report can be accessed by [it](https://docs.google.com/document/d/1Xq5bFx0vPDcc5DVysMi8cEpCw4F1BWhgfaVaTpQve08/edit?usp=sharing). The link for the third report can be access by [it](The link for the second report can be accessed by [it](https://docs.google.com/document/d/1Xq5bFx0vPDcc5DVysMi8cEpCw4F1BWhgfaVaTpQve08/edit?usp=sharing))
+The link for the second report can be accessed by [it](https://docs.google.com/document/d/1Xq5bFx0vPDcc5DVysMi8cEpCw4F1BWhgfaVaTpQve08/edit?usp=sharing). The link for the third report can be access by [it](The link for the second report can be accessed by [it](https://docs.google.com/document/d/1c6NJH2H2vguORcUCC7Vyu_9eia4g8aNvJvTw_AP0qdk/edit?usp=sharing))
