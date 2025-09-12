@@ -18,33 +18,33 @@
 ;; General task
 
 ;; global variables
-(defvar *lst-last* nil)
+(defvar *list* nil)
 
 ;; constucting a list with required paramaters
 (format t "~%~%task1")
-(print '('(a) 3 '(a b c) nil))
+(setf *list* '((a) 3 (a b c) nil)) 
+(print *list*)
 
 ;; getting a list head
 (format t "~%~%task2")
-(print (car (list 1 2 3 4 5)))
+(print (car *list*))
 
 ;; get tail of the list
 (format t "~%~%task3")
-(print (cdr '(1 2 3 4)))
-(print (rest '(1 2 3 4)))
+(print (cdr *list*))
+(print (rest *list*))
 
 ;; trying to get the third item in the list
 (format t "~%~%task4")
-(print (third '(1 2 3 4)))
-(print (nth 2 '(1 2 3 4)))
-(print (car (cdr (cdr '(1 2 3 4)))))
+(print (third *list*))
+(print (nth 2 *list*))
+(print (car (cdr (cdr *list*))))
 
 ;; getting the last element
 (format t "~%~%task5")
-(print (car (last '(1 2 3 4))))
-(setf *lst-last* '(1 2 3 4))
-(print (nth (1- (length *lst-last*)) *lst-last*))
-(print (car (cdr (cdr (cdr '(1 2 3 4))))))
+(print (car (last *list*)))
+(print (nth (1- (length *list*)) *list*))
+(print (car (cdr (cdr (cdr *list*)))))
 
 ;; usage atom and listp
 (format t "~%~%task6")
@@ -59,36 +59,35 @@
 
 ;; usage other predicates
 (format t "~%~%task7")
-(print (eq 'a 'b)) ; is the same object?
-(print (eq 'a 'a))
+(print (eq (car *list*) (cdr (car *list*)))) ; is the same object?
+(print (eq (car *list*) (car *list*)))
 (print (eq 1 1))
 (print (eq 1 1.0))
-(print (eq '(a b) '(a b)))
+(print (eq *list* *list*))
 
 (format t "~%")
 
-(print (eql 'a 'b)) ; comparison for string, numbers
-(print (eql 'a 'a))
+(print (eql (car *list*) (cdr (car *list*)))) ; comparison for string, numbers
+(print (eql (car *list*) (car *list*)))
 (print (eql 1 1))
 (print (eql 1 1.0))
-(print (eql '(a b) '(a b)))
+(print (eql *list* *list*))
 
 (format t "~%")
 
-(print (equal 'a 'b)) ; comparison for string, numbers, lists
-(print (equal 'a 'a))
+(print (equal (car *list*) (cdr (car *list*)))) ; comparison for string, numbers, lists
+(print (equal (car *list*) (car *list*)))
 (print (equal 1 1))
 (print (equal 1 1.0))
-(print (equal '(a b) '(a b)))
+(print (equal *list* *list*))
 
 (format t "~%")
 
-(print (equalp 'a 'b)) 
-	; comparison for string, numbers, lists, different types
-(print (equalp 'a 'a))
+(print (equalp (car *list*) (cdr (car *list*)))) ; comparison for string, numbers, lists, different types
+(print (equalp (car *list*) (car *list*)))
 (print (equalp 1 1))
 (print (equalp 1 1.0))
-(print (equalp '(a b) '(a b)))
+(print (equalp *list* *list*))
 
 (format t "~%")
 
@@ -115,8 +114,8 @@
 ```
 
 <p align="center">
-<img src="img/general_task_part1.png">
-<img src="img/general_task_part2.png">
+<img src="img/general_task_part1.2.png">
+<img src="img/general_task_part2.2.png">
 </p>
 
 ## Виконання завдання за варіантом
